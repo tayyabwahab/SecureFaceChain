@@ -19,12 +19,6 @@ This project implements a multi-layered security approach for facial biometric d
 
 ## 🏗️ Architecture
 
-```
-Input Image → MediaPipe Detection → Feature Extraction → GAN Noise → Autoencoder Encryption → Blockchain Storage
-                                                                                                    ↓
-Retrieved Data ← Decryption ← Blockchain Retrieval ← Similarity Matching ← Verification Request
-```
-
 ### Core Components
 
 #### 1. **Facial Landmark Detection**
