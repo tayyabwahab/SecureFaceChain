@@ -2,6 +2,10 @@
 
 A cutting-edge project that combines **Generative Adversarial Networks (GANs)**, **facial landmark detection**, **neural network encryption**, and **blockchain technology** to securely store and verify facial biometric features on the Ethereum blockchain.
 
+<div align="center">
+  <img src="images/Complete flow.png" width="800"/>
+</div>
+
 ## 🎯 Project Overview
 
 This project implements a multi-layered security approach for facial biometric data:
@@ -40,6 +44,12 @@ For each facial region, calculates:
 - **Area**: Using Shoelace formula
 - **Perimeter**: Sum of distances between consecutive points
 - **Aspect Ratio**: Width to height ratio
+
+<div align="center">
+  <img src="images/Feature Engineering.png" width="700"/>
+  <br/>
+  <em>Figure: Feature Engineering Flow</em>
+</div>
 
 #### 3. **GAN-based Security Layer**
 - **Generator**: Creates synthetic facial features
