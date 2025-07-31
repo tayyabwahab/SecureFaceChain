@@ -315,37 +315,6 @@ match_result = contract.functions.compareElements(encrypted_features).call()
 - **Storage Efficiency**: 54 features → 4 encrypted features
 - **Blockchain Gas**: Optimized for minimal gas consumption
 
-## 🧪 Testing
-
-### Unit Tests
-```bash
-# Run smart contract tests
-truffle test
-
-# Run Python tests (if available)
-python -m pytest tests/
-```
-
-### Integration Tests
-1. **End-to-End Flow**: Complete store/retrieve cycle
-2. **Multiple Images**: Test with different facial images
-3. **Error Handling**: Test invalid inputs and edge cases
-
-## 🤝 Contributing
-
-### Development Setup
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Add tests
-5. Submit a pull request
-
-### Code Style
-- Follow PEP 8 for Python code
-- Use meaningful variable names
-- Add comprehensive comments
-- Include docstrings for functions
-
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
@@ -357,13 +326,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **TensorFlow**: Neural network framework
 - **Ethereum**: Blockchain platform
 - **OpenCV**: Computer vision library
-
-## 📞 Support
-
-For questions, issues, or contributions:
-- Create an issue on GitHub
-- Contact the development team
-- Check the documentation
 
 ## 🔮 Future Enhancements
 
@@ -381,5 +343,3 @@ For questions, issues, or contributions:
 - **Cross-Chain**: Multi-blockchain support
 
 ---
-
-**Note**: This project is for educational and research purposes. Ensure compliance with local privacy and biometric data regulations before deployment in production environments. 
