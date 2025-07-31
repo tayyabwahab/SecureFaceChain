@@ -135,8 +135,8 @@ For each facial region, calculates:
 
 ### 1. Clone the Repository
 ```bash
-git clone <repository-url>
-cd "Securing Facial Features in Blockchain using GAN"
+git clone https://github.com/tayyabwahab/SecureFaceChain.git
+cd "SecureFaceChain"
 ```
 
 ### 2. Install Python Dependencies
